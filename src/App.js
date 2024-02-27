@@ -29,7 +29,7 @@ function App() {
 
 
         gsap.timeline({
-            ScrollTrigger: {
+            scrollTrigger: {
                 trigger: '.fran',
                 start: 'top 60%',
             },
